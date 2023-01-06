@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
+/* Header section */
 .header{
     background-image: url("../images/banner/banner1.png");
     background-size: cover;
@@ -40,4 +41,38 @@
     font-size: 18px;
     font-weight: 600;
     border-radius: 5px;
+}
+.btn-header:hover{
+    background: #fff;
+    color: #F15B22;
+    border: 2px solid #F15B22;
+}
+/*   failures person section start  */
+.person{
+    display: flex;
+}
+.person-img{
+    margin-left: 200px;
+    margin-top: 130px;
+}
+.person-div{
+    margin-top: 370px;
+    margin-left: 85px;
+    
+}
+.person-h3{
+    font-size: 40px;
+    width: 340px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.person-div p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+}
+.person-div span{
+    color: rgb(12, 215, 12);
+    font-weight: 900;
 }
