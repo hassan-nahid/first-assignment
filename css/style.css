@@ -28,7 +28,7 @@
     text-align: right;
     color: #444343;
 }
-/* Button */
+/* Button style */
 .header-btn{
     padding-top: 30px;
     padding-left: 380px;
@@ -129,7 +129,7 @@
     line-height: 47px;
     color: #fff;
 }
-/*button */
+/*button style*/
 .btn-inside{
     height: 60px;
     width: 160px;
@@ -141,6 +141,123 @@
     border-radius: 5px;
 }
 .btn-inside:hover{
+    background: #F15B22;
+    color: #fff;
+    border: 2px solid #fff;
+}
+/*   from here the blog style start  */
+.blog-header-div{
+    margin: 200px 300px 50px 300px;
+}
+.blog-h3{
+    text-align: center;
+    font-size: 40px;
+    line-height: 47px;
+    font-weight: 700;
+}
+.blog-p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+    text-align: center;
+}
+.blog-div{
+    display: flex;
+}
+.div-blog{
+    margin: 100px;
+}
+.title-blog{
+    margin-bottom: 20px;
+}
+.title-blog-h3{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+}
+.title-blog-p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+}
+/* footer style start */
+.footer{
+    background:#151414;
+    height: 530px;
+}
+.footer-flex{
+    display: flex;
+}
+.footer-div{
+    margin-top: 130px;
+    margin-left: 230px;
+}
+.footer-h3{
+    font-size: 40px;
+    line-height: 47px;
+    font-weight: 700;
+    color: #fff;
+}
+.footer-div p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    text-align: left;
+}
+.footer-img{
+    margin-top: 30px;
+    padding-right: 20px;
+}
+.footer-img a{
+    text-decoration: none;
+    padding-left: 10px;
+}
+.last-div{
+    margin-top: 150px;
+    margin-left: 250px;
+}
+.last-h3{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.email-input{
+    height: 50px;
+    width: 320px;
+    color: #fff;
+    background: #151414;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.email-input::placeholder {
+    font-weight: 200;
+    font-size: 18px;
+    color: #fff;
+    padding: 21px;
+}
+.last-btn{
+    padding-top: 15px;
+}
+.btn-last{
+    height: 60px;
+    width: 160px;
+    background: #fff;
+    color: #F15B22;
+    border: 1px solid #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.btn-last:hover{
     background: #F15B22;
     color: #fff;
     border: 2px solid #fff;
